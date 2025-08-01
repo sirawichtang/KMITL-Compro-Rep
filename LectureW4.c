@@ -20,7 +20,7 @@ int main()
     printf("Yippee\n");
    }else {
     printf("Sadge\n");
-   }*/
+   }
 
    char Name[30];
    char Surname[30];
@@ -53,11 +53,11 @@ int main()
     printf("Grade F");
    }
    
-   printf("\n");
+   printf("\n");*/
 
    //funni bellow
 
-   /*printf("\nWhat is the number in your mind? :");
+   printf("\nWhat is the number in your mind? :");
    int Magic;
    scanf("%d", &Magic);
    sleep(1);
@@ -67,6 +67,6 @@ int main()
    sleep(3);
    printf("Calculating the mass of your mom...\n");
    sleep(3);
-   printf("You are thinking of the number : %d!\n", Magic);*/
+   printf("You are thinking of the number : %d!\n", Magic);
 
 }
