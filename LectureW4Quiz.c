@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     float RadiusRes;
     int LengthRes;
     float ResistRes;
 
     float ValueRes;
-    
+
     printf("Enter Radius of Resistor (m) : ");
     scanf("%f", &RadiusRes);
     printf("Enter Length of Resistor (m) : ");

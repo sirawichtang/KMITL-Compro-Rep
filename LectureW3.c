@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char KmitlTxt[20] = "Kmitl";
 
     printf("%s\n", KmitlTxt);
@@ -22,19 +23,19 @@ int main(){
 
     float num1 = 1, num2 = 2;
     printf("\nnum1 = %.2f, num2 = %.2f", num1, num2);
-    num1 += num2; //just num1 = num1 + num2
-    printf ("\nnum1 = %.2f", num1);
-    printf ("\nnum2 = %.2f\n", num2);
-    num1 -= num2--; //just num1 = num1 - num2
-    printf ("\nnum1 = %.2f", num1);
-    printf ("\nnum2 = %.2f\n", num2);
+    num1 += num2; // just num1 = num1 + num2
+    printf("\nnum1 = %.2f", num1);
+    printf("\nnum2 = %.2f\n", num2);
+    num1 -= num2--; // just num1 = num1 - num2
+    printf("\nnum1 = %.2f", num1);
+    printf("\nnum2 = %.2f\n", num2);
 
-    //result is difference based on brackets
+    // result is difference based on brackets
     char A = 10;
-    printf("%d\n", 10*2*3-10/7);
-    printf("%d\n", 10*2*(3-10)/7);
-    printf("%d\n", 10*2>2+3); //result in 1 because true
-    printf("%d\n", 10*2<2+3); //result in 0 because false
+    printf("%d\n", 10 * 2 * 3 - 10 / 7);
+    printf("%d\n", 10 * 2 * (3 - 10) / 7);
+    printf("%d\n", 10 * 2 > 2 + 3); // result in 1 because true
+    printf("%d\n", 10 * 2 < 2 + 3); // result in 0 because false
 
     return 0;
 }
